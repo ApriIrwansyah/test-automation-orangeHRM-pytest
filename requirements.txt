@@ -1,0 +1,9 @@
+pytest
+selenium
+
+
+# pytest -s -v tests/test_login.py
+# Perintah untuk laporan html ===========
+# pytest -s -v tests/test_login.py --html=reports/report.html --self-contained-html
+# perintah untuk laporan xml ============
+# pytest -s -v tests/test_login.py --junitxml=reports/login.xml
