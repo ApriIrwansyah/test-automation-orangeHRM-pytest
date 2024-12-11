@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 // echo 'Building.. Modified'
-                git branch: 'main', url: 'https://github.com/username/repository.git'
+                git branch: 'main', url: 'https://github.com/ApriIrwansyah/test-automation-orangeHRM-pytest.git'
             }
         }
         stage('Test') {
